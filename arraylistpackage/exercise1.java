@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class exercise1 {
 
+    // xuat danh sach 
     public static void xuat (ArrayList<Double> danhSach){
 
         for(double x : danhSach){
@@ -11,6 +12,7 @@ public class exercise1 {
         }
     }
 
+    // function cong thuc tinh tong chuoi so 
     public static double tinhTong (ArrayList <Double> danhSach){
         double tong = 0;
         for (double x : danhSach){
