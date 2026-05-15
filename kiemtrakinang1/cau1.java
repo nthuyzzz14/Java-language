@@ -18,10 +18,10 @@ public class cau1 {
         }
 
         if (reverse == n){
-            System.out.println(n + " La so doi xung");
+            System.out.println(n + " La so doi xung !");
         }
         else {
-            System.out.println(n +" Khong la so doi xung");
+            System.out.println(n +" Khong la so doi xung !");
         }
         nhap.close();
     }
