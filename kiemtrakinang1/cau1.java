@@ -8,11 +8,20 @@ public class cau1 {
         System.out.print("Nhap vao mot so N: ");
         int n = nhap.nextInt();
 
-        if(n == n){
-            System.out.println("N la so doi xung !");
+        int temp = n;
+        int reverse = 0;
+
+        while (temp != 0){
+            int digit = temp % 10;
+            reverse = reverse * 10 + digit;
+            temp = temp / 10;
+        }
+
+        if (reverse == n){
+            System.out.println(n + " La so doi xung");
         }
         else {
-            System.out.println("N khong la so doi xung !");
+            System.out.println(n +" Khong la so doi xung");
         }
         nhap.close();
     }
