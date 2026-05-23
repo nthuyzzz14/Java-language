@@ -12,13 +12,13 @@ public class main {
         int soChim = 0;
 
         // them vao Arraylist
-        danhSach.add(new cat("Nekko"));
-        danhSach.add(new dog("Milu"));
-        danhSach.add(new bird("Parking"));
+        danhSach.add(new cat("Meo"));
+        danhSach.add(new dog("Cho"));
+        danhSach.add(new bird("Chim"));
 
-        pet p1 = new cat("Nekko");
-        pet p2 = new dog("Milu");
-        pet p3 = new bird("Pảking");
+        pet p1 = new cat("");
+        pet p2 = new dog("");
+        pet p3 = new bird("");
 
         System.out.println("===== DANH SACH THU CUNG =====");
         //dung for-each de duyet va thuc hien cac method
