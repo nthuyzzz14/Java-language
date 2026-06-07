@@ -1,4 +1,4 @@
-package hethongquanlyBenhVien;
+ package hethongquanlyBenhVien;
 
 public class BacSi extends NhanVienYTe implements CoTheKham, CoTheTiepNhan{
   protected String bangCap;
