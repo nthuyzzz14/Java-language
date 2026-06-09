@@ -1,4 +1,4 @@
-package lythuyet;
+package lythuyettry_catch;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
